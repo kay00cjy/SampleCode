@@ -4,15 +4,15 @@ class main {
     public static void main(String[] args) {
         int[] boo = {0, 1, 2, 3, 4};
 
-        int[] bar = new int[100];
+        int[] meow = new int[100];
         for(int i = 0; i < 100; i++){
-            bar[i] = i;
+            meow[i] = i;
         }
         System.out.println("The number of even numbers in boo is:");
         System.out.println(countEvenNum(boo, 5));
 
-        System.out.println("The number of even numbers in bar is:");
-        System.out.println(countEvenNum(bar, 100));
+        System.out.println("The number of even numbers in meow is:");
+        System.out.println(countEvenNum(meow, 100));
 
     }
 
