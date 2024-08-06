@@ -17,7 +17,6 @@ class main {
     }
 
 
-
     private static int countEvenNum(int[] arr, int size){
         int count = 0;
 
